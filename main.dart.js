@@ -79568,7 +79568,8 @@ a7=a5.db.a.a
 r=A.hd(A.cR(a7,",",""))
 a7=a5.dx.a.a
 q=A.hd(A.cR(a7,",",""))
-if(a8!=null&&s!=null&&r!=null&&q!=null){a7=s*(r/100)
+if(s!=null&&r!=null&&q!=null){if(a8==null)a8=0
+a7=s*(r/100)
 p=a7/8760
 o=a7/365
 n=a7/12
